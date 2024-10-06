@@ -17,6 +17,15 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/png" href="File/A.A logo black bg2.png">
+  <!-- <style>
+    .my-skills ul li {
+      display: flex;
+    }
+
+    .my-skills ul li div {
+      width: 100%;
+    }
+  </style> -->
   <style>
     body,
     h1,
@@ -96,9 +105,10 @@
       <hr style="width:200px" class="w3-opacity">
       <p>
         I graduated from Qom university in Computer Engineering. I currently work at Neco industry management as a DBA
-        (database administrator). I do database tunning, I visualize our company data in some reports by Power BI and
+        (Database Administrator). I do database tunning, I visualize our company data in some reports by Power BI and
         also create indexes and stuff to increase the data retrieval speed in our app.
-        I also program CRUD APIs by FastAPI and .Net framework.
+        I also program CRUD APIs by FastAPI and .Net framework. For programming mobile applications, I use 'Flet'; a
+        python framework that makes mobile programming easier.
       </p>
       <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
       <p class="w3-wide">Database (SQL)</p>
@@ -138,36 +148,115 @@
       </button>
 
       <!-- Grid for pricing tables -->
-      <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="my-skills w3-row-padding" style="margin:0 -16px">
+
+        <!-- Noob Skills Section -->
         <div class="w3-half w3-margin-bottom">
-          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-            <li class="w3-dark-grey w3-xlarge w3-padding-32">Noob ;)</li>
-            <li class="w3-padding-16">ASP .Net</li>
-            <li class="w3-padding-16">PHP</li>
-            <li class="w3-padding-16">django</li>
+          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off"
+            style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px;">
+            <li class="w3-dark-grey w3-xlarge w3-padding-32"
+              style="background: linear-gradient(45deg, #2f2f2f, #4b4b4b); border-top-left-radius: 8px; border-top-right-radius: 8px;">
+              Noob ;)</li>
+
+            <li class="w3-padding-16" style="padding: 20px 0;">
+              <div style="display: flex; align-items: center; justify-content: center;">
+                <div style="display: flex; justify-content: start; width: 50%; padding-left: 20px;"><img
+                    src="File/core.png" alt="Icon" width="40" height="40"></div><span
+                  style="display: flex; justify-content: end; width: 50%; padding-right: 20px;">ASP
+                  .Net Core</span>
+              </div>
+            </li>
+
+            <li class="w3-padding-16" style="padding: 20px 0;">
+              <div style="display: flex; align-items: center; justify-content: center;">
+                <div style="display: flex; justify-content: start; width: 50%; padding-left: 20px;"><img
+                    src="File/flet-logo.png" alt="Icon" width="40" height="40"></div><span
+                  style="display: flex; justify-content: end; width: 50%; padding-right: 20px;">Flet</span>
+              </div>
+            </li>
+
+            <li class="w3-padding-16" style="padding: 20px 0;">
+              <div style="display: flex; align-items: center; justify-content: center;">
+                <div style="display: flex; justify-content: start; width: 50%; padding-left: 20px;"> <img
+                    src="File/django.png" alt="Icon" width="40" height="40"></div><span
+                  style="display: flex; justify-content: end; width: 50%; padding-right: 20px;">Django</span>
+              </div>
+            </li>
+
+            <li class="w3-padding-16" style="padding: 20px 0;">
+              <div style="display: flex; align-items: center; justify-content: center;">
+                <div style="display: flex; justify-content: start; width: 50%; padding-left: 20px;"><img
+                    src="File/php.png" alt="Icon" width="40" height="40"></div><span
+                  style="display: flex; justify-content: end; width: 50%; padding-right: 20px;">PHP</span>
+              </div>
+            </li>
           </ul>
         </div>
 
-        <div class="w3-half">
-          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-            <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-            <li class="w3-padding-16">FastAPI</li>
-            <li class="w3-padding-16">SQL Server</li>
-            <li class="w3-padding-16">Power BI</li>
+        <!-- Pro Skills Section -->
+        <div class="w3-half w3-margin-bottom">
+          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off"
+            style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px;">
+            <li class="w3-dark-grey w3-xlarge w3-padding-32"
+              style="background: linear-gradient(45deg, #2f2f2f, #4b4b4b); border-top-left-radius: 8px; border-top-right-radius: 8px;">
+              Pro</li>
+
+            <li class="w3-padding-16" style="padding: 20px 0;">
+              <div style="display: flex; align-items: center; justify-content: center;">
+                <div style="display: flex; justify-content: start; width: 50%; padding-left: 20px;"><img
+                    src="File/fast.png" alt="Icon" width="40" height="40"></div><span
+                  style="display: flex; justify-content: end; width: 50%; padding-right: 20px;">Fast API</span>
+              </div>
+            </li>
+
+            <li class="w3-padding-16" style="padding: 20px 0;">
+              <div style="display: flex; align-items: center; justify-content: center;">
+                <div style="display: flex; justify-content: start; width: 50%; padding-left: 20px;"><img
+                    src="File/sqlserver.png" alt="Icon" width="40" height="40"></div><span
+                  style="display: flex; justify-content: end; width: 50%; padding-right: 20px;">SQL Server</span>
+              </div>
+            </li>
+
+            <li class="w3-padding-16" style="padding: 20px 0;">
+              <div style="display: flex; align-items: center; justify-content: center;">
+                <div style="display: flex; justify-content: start; width: 50%; padding-left: 20px;"> <img
+                    src="File/powerbi.png" alt="Icon" width="40" height="40"></div><span
+                  style="display: flex; justify-content: end; width: 50%; padding-right: 20px;">Power BI</span>
+              </div>
+            </li>
+
+            <li class="w3-padding-16" style="padding: 20px 0;">
+              <div style="display: flex; align-items: center; justify-content: center;">
+                <div style="display: flex; justify-content: start; width: 50%; padding-left: 20px;"><img
+                    src="File/postgres.png" alt="Icon" width="40" height="40"></div><span
+                  style="display: flex; justify-content: end; width: 50%; padding-right: 20px;">PostgreSQL</span>
+              </div>
+            </li>
           </ul>
         </div>
-        <!-- End Grid/Pricing tables -->
       </div>
 
+      <!-- Add this CSS -->
+      <style>
+        .skill-logo {
+          width: 90px;
+          /* Set the desired width */
+          height: 50px;
+          /* Set the desired height */
+          object-fit: contain;
+          /* Ensures that the image scales properly */
+        }
+      </style>
+
       <!-- Testimonials -->
-      <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>
+      <h3 class="w3-padding-24 w3-text-light-grey">My Experience</h3>
       <img src="File/necoLogo2.ico" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-      <p><span class="w3-large w3-margin-right">Ehsan Nejabat.</span> CEO at Neco industry management.</p>
-      <p>Ali Amoori saved us from a database disaster.</p><br>
+      <p><span class="w3-large w3-margin-right">Database Administrator</span></p>
+      <p>Neco industry management</p><br>
 
       <img src="File\EziWin_Logo.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-      <p><span class="w3-large w3-margin-right">Habib Heidari.</span> Founder of EziWin.</p>
-      <p>No one is better than Ali Amoori in backend development.</p>
+      <p><span class="w3-large w3-margin-right">Fast API</span></p>
+      <p>EziWin</p>
       <!-- End About Section -->
     </div>
 
@@ -202,10 +291,10 @@
     <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
 
       <i class="fa fa-linkedin w3-hover-opacity" style="cursor: pointer;"
-        onclick="window.open('https://www.linkedin.com/in/ali-amoori-36156724b', '_blank');"></i>
+        onclick="window.open('https://www.linkedin.com/in/aliamoori', '_blank');"></i>
 
       <i class="fa fa-telegram w3-hover-opacity" style="cursor: pointer;"
-        onclick="window.open('https://t.me/A_Amoori', '_blank');"></i>
+        onclick="window.open('https://t.me/Its_CharlesAM', '_blank');"></i>
 
       <i class="fa fa-instagram w3-hover-opacity" style="cursor: pointer;"
         onclick="window.open('https://www.instagram.com/itsaliamoori/', '_blank');"></i>
